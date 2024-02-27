@@ -1,0 +1,146 @@
+.sidenav {
+    width: auto;
+    position: fixed;
+    z-index: 1;
+    background: whitesmoke;
+    box-shadow: 3px 10px 18px #888888;
+    overflow-x: hidden;
+    padding: 8px 0;
+    height: 100vh;
+    padding: 15px;
+  }
+
+  .logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .logo{
+    background-color: black;
+    padding: 15px;
+    border-radius: 100%;
+    height: 20px;
+  }
+
+  .logo-heading{
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .icon-con{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bi{
+    color: rgb(65, 135, 240);
+  }
+  .bid{
+    margin-left: 10px;
+  }
+  .side-bottom-items{
+    margin-top:150px;
+  }
+
+
+  .main-content{
+    margin-left: 175px;
+    padding: 10px;
+    
+    background-color: white;
+  }
+
+  .items-container{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-end;
+   box-shadow: 2px 10px 18px #e4e2e2;
+   padding: 10px;
+  }
+  .response-container{
+    display: flex;
+    
+  }
+  .items{
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+  }
+
+.select{
+    border-style: none;
+}
+
+.items-container2{
+    margin-top: 10px;
+    display: flex;
+}
+.con-1{
+    display: flex;
+}
+.search-input{
+    border-radius: 20px;
+    border: 1px solid;
+    text-align: center;
+    width: 320px;
+    height: 28px;
+}
+.create-container{
+    display: flex;
+    border: 0px solid;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 300px;
+    width: 200px;
+    height: 30px;
+    background-color: whitesmoke;
+}
+
+.items-container3{
+    margin-top: 10px;
+    background-color: rgb(248, 244, 244);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.select-1{
+    background-color: white;
+    border-radius: 10px;
+    height: 28px;
+    width: auto;
+}
+.con-1{
+    display: flex;
+    justify-content: space-between;
+}
+.con-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text{
+    font-weight: 600;
+}
+
+.main-container{
+    background-color: rgb(27, 27, 86);
+    height: 80px;
+    width: auto;
+}
+
+
+.detailes-container{
+    background-color: rgb(173, 229, 247);
+    margin: 15px;
+    width: auto;
+    height: auto;
+    padding: 12px;
+    border-radius: 12px;
+}
